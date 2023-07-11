@@ -1,0 +1,273 @@
+.container {
+    max-width: 493px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 89px;
+    height: 45px;
+}
+
+/*main*/
+.container-title {  
+    grid-template-rows: 0.5fr 0.3fr 0.3fr 0.3fr;;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "img"
+        "title"
+        "text"
+        "button";
+}
+.title {
+    font-size: 34px;
+    text-align: center;
+    line-height: 45px;
+    white-space: nowrap;
+}
+.title br{
+    display: none;
+}
+.light {
+    display: none;
+}
+.text-title {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    
+}
+.img-title {
+    width: 424px;
+    height: 424px;
+    margin: 0 auto;
+}
+.button-title {
+    width: 305px;
+    height: 75px;
+    
+    font-size: 18px;
+    line-height: normal;
+    margin: 0 auto;
+}   
+
+/*skills*/
+
+.skills-title {
+    font-size: 30px;
+    line-height: 80px;
+}
+.content-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr;
+    grid-template-areas:
+    "long pages1"
+    "pages2 wight";
+    gap: 20px;
+}
+.pages-widht {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.2fr 0fr 1fr;
+    grid-template-areas:
+    "img"
+    "title"
+    "text"
+    "button";
+    min-height:  534px;
+}
+.pages-title { 
+    font-size: 18px;
+    line-height: 80px;
+}
+.pages-text {  
+    font-size: 12px;
+    line-height: normal;
+    max-width: 183px;
+}
+.pages-button {
+    width: 200px;
+    height: 50px;
+
+    font-size: 14px;
+    line-height: normal;
+}
+.long-img{
+    width: 185px;
+    height: 185px;
+}
+.pages-long{
+    min-height:  534px;
+}
+.pages-one{
+    min-height:  534px;
+    top: 0px;
+}
+.pages-two{
+    min-height:  534px;
+}
+.pages-one .pages-img{
+    width: 182px;
+    height: 182px;
+    margin-left: 0;
+}
+.pages-one .pages-button{
+    margin-top: 197px;
+}
+.pages-two .pages-img{
+    width: 198px;
+    height: 132px;
+}
+.pages-widht .pages-img{
+    width: 206px;
+    height: 137px;
+}
+
+/*about*/
+
+.content-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr 0.4fr 0.4fr;
+    grid-template-areas:
+    ". title ."
+    ". image ."
+    ". text ."
+    "fact1 fact2 fact3";
+}
+.about-title {
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+.about-text {  
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+}
+.fact-number { 
+    font-size: 24px;
+    line-height: 80px;
+}
+.fact-text {
+    font-size: 14px;
+}
+.fact1 {
+    position: relative;
+    left: 50px;
+}
+.fact3 {
+    position: relative;
+    right: 100px;
+}
+.fact-img {
+    width: 352px;
+    height: 352px;
+}
+
+/*pricing*/
+.card {
+    grid-template-rows: 1fr 0.3fr 0.4fr 0.2fr;
+}
+.pricing-title {
+    font-size: 30px;
+    line-height: 80px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card-subtitle {   
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.card-text {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+.card-button {
+    width: 205px;
+    height: 45px;
+    
+    font-size: 22px;
+    line-height: normal;
+    margin: 0 auto;
+}
+.card-button-text {
+    font-size: 16px;
+    line-height: normal;
+}
+.reaction1{
+    width: 291px;
+    height: 291px;
+    margin: 0 auto;
+}
+.reaction2 {
+    width: 314px;
+    height: 241px;
+    margin: 0 auto;
+}
+.reaction3 {
+    width: 253px;
+    height: 253px;
+    margin: 0 auto;
+}
+
+/*contact*/
+
+.content-contact {
+    display: grid;
+    grid-template-columns: 0px 1fr 0px;
+    grid-template-rows: 0.5fr 0.5fr 0.3fr 0.5fr;
+    grid-template-areas:
+    ". title ."
+    ". image ."
+    ". text ."
+    "input button .";
+    margin-top: 50px;
+}
+.contact-image {
+    width: 358px;
+    height: 322px;
+    margin: 0 auto;
+}
+.contact-title {
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+.contact-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+}
+.contact-input {
+    width: 400px;
+    height: 56px;
+}
+.contact-button {
+    width: 193px;
+    height: 60px;
+    
+    font-size: 16px;
+    line-height: normal;
+    position: relative;
+    left: 280px;
+}
+
+/*footer*/
+
+.footer {
+    max-width: 493px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation-lits-link__footer {
+    z-index: -1;
+    font-size: 12px;
+    line-height: normal;
+    position: relative;
+    top: 0;
+}

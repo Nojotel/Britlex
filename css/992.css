@@ -1,0 +1,279 @@
+/*burger*/
+.container {
+    max-width: 690px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu{
+    display: block;
+}
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:5;
+    display: block;
+}
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #39515E;
+	transition: all 0.5s;
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+/*menu*/
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+    background: #EEEEEE;
+	transform: translateX(-100%);
+	transition: transform 0.5s; 
+}
+.menu.active {
+	transform: translateX(0);
+}
+.menu a{
+    text-decoration: none;
+    color: #263238;
+    font-size: 17px;
+}
+.menu li {
+	list-style-type: none;
+    margin: 7px;
+}
+
+.menu-btn.active span:nth-of-type(1) {
+    display: none;
+}
+.menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);  
+}
+.menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg); 
+}
+.container-header {
+    margin-top: 71px;
+    display: grid;
+    justify-items: flex-end;
+    grid-template-areas: "a a ";
+    grid-template-columns: 0fr 1fr;
+}
+.logo {
+    width: 89px;
+    height: 45px;
+}
+.navigation {
+    display: none;
+}
+.button-header {
+    display: none;
+}
+
+/*main*/
+.container-title{
+    grid-template-rows: 0.3fr 0.3fr 0.1fr;
+}
+.title {
+    font-size: 36px;
+    line-height: 45px;
+}
+.light {
+    width: 50.947px;
+    height: 50.947px;
+    margin-top: 70px;
+}
+.text-title {
+    font-size: 16px;
+    line-height: normal;
+}
+.img-title {
+    width: 352px;
+    height: 352px;
+
+}
+.button-title {
+    width: 236px;
+    height: 65px;
+    
+    font-size: 18px;
+    line-height: normal;
+}
+
+/*skill*/
+
+.skills-title {
+    font-size: 30px;
+    line-height: 80px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.content-skills {
+    grid-template-rows: 475px 360px;
+}
+.long-img {
+    width: 214px;
+    height: 214px;
+}
+.pages-title {
+    font-size: 20px;
+    line-height: 80px;
+}
+.pages-text {
+    font-size: 13px;
+    line-height: normal;
+}
+.pages-button {
+    width: 178px;
+    height: 50px;
+    
+    font-size: 16px;
+    line-height: normal;
+}
+.pages-one {
+    z-index: -1;
+}
+.pages-one .pages-img{
+    width: 200px;
+    height: 200px;
+}
+.pages-two .pages-img{
+    width: 216px;
+    height: 144px;
+}
+.pages-widht .pages-img{
+    width: 202px;
+    height: 134px;
+}
+.pages-one .pages-button{
+    margin-top: 21px;
+}
+.pages-widht{
+    grid-template-areas:
+    "title ."
+    "text img"
+    "button img";
+}
+
+/*fact*/
+
+.content-about {
+    grid-template-columns: 1fr 0.5fr 4fr 1fr 1fr;
+}
+.about-title {
+    font-size: 30px;
+    line-height: 80px;
+}
+.about-text {
+    font-size: 14px;
+    line-height: normal;
+}
+.fact-number {
+    font-size: 22px;
+    line-height: 80px;
+}
+.fact-text {
+    font-size: 13px;
+}
+.fact-img {
+    width: 295px;
+    height: 295px;
+}
+
+/*fricing*/
+
+.pricing-title {
+    font-size: 30px;
+    line-height: 80px;
+}
+.card {
+    grid-template-rows: 1fr 0.4fr 0.6fr 0.5fr;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+}
+.card-text {
+    font-size: 14px;
+    line-height: normal;
+}
+.card-button {
+    width: 205px;
+    height: 45px;
+
+    font-size: 22px;
+    line-height: normal;
+}
+.card-button-text {
+    font-size: 16px;
+    line-height: normal;
+}
+.reaction1 {
+    width: 197px;
+    height: 197px;
+}
+.reaction2{
+    width: 219px;
+    height: 168px;
+}
+.reaction3{
+    width: 210px;
+    height: 210px;
+}
+
+
+/*contact*/
+
+.contact-image {
+    width: 233px;
+    height: 210px;
+}
+.contact-title {
+    font-size: 30px;
+    line-height: 80px;
+}
+.contact-text {
+    font-size: 14px;
+    line-height: normal;
+}
+.contact-input {
+    width: 283px;
+    height: 50px;
+}
+.contact-button {
+    width: 145px;
+    height: 50px;
+
+    font-size: 13px;
+    line-height: normal;
+}    
+/*footer*/
+
+.footer {
+    max-width: 690px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation-lits-link__footer {
+    z-index: -1;
+    font-size: 13px;
+    line-height: normal;
+    position: relative;
+    top: 0;
+}
