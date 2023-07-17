@@ -2,7 +2,8 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --text-dark: #263238
+    --text-dark: #263238;
+    --text-black: #000;
 }
 
 /*Header*/
@@ -47,7 +48,7 @@
     cursor: pointer;
 }
 .button-header {
-    color: #000;
+    color: var(--text-black);
     background-color: #fff;
     font-size: 24px;
     font-style: normal;
@@ -75,7 +76,7 @@
         "button button img";
 }
 .title {
-    color: #000;
+    color: var(--text-black);
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
@@ -125,7 +126,7 @@
 .skills-title {
     text-align: center;
     margin-top: 147px;
-    color: #000;
+    color: var(--text-black);
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -214,7 +215,7 @@
     "fact1 fact2 fact3 . image";
 }
 .about-title {
-    color: #000;
+    color: var(--text-black);
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -269,7 +270,7 @@
 /*Pricing*/
 
 .pricing-title {
-    color: #000;
+    color: var(--text-black);
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -282,7 +283,7 @@
 }
 
 .card-subtitle {
-    color: #263238;
+    color: var(--text-dark);
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -297,7 +298,7 @@
     max-width: 410px;
 }
 .card-button {
-    color: #263238;
+    color: var(--text-dark);
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -345,7 +346,7 @@
     grid-area: image;
 }
 .contact-title {
-    color: #000;
+    color: var(--text-black);
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -380,7 +381,7 @@
     width: 264px;
     height: 80px;
     border-radius: 10px;
-    background: #263238;
+    background: var(--text-dark);
     border: 0;
     cursor: pointer;
     grid-area: button;
