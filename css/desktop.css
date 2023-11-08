@@ -1,203 +1,203 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-:root{
-    --text-dark: #263238;
-    --text-black: #000;
+:root {
+  --text-dark: #263238;
+  --text-black: #000;
 }
 
 /*Header*/
-.menu{
-    display: none;
+.menu {
+  display: none;
 }
-.menu-btn{
-    display: none;
+.menu-btn {
+  display: none;
 }
 .container {
-    max-width: 1342px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1342px;
+  width: 100%;
+  margin: 0 auto;
 }
 .container-header {
-    margin-top: 71px;
-    display: grid;
-    justify-items: self-start;
-    grid-template-areas: "a a a";
+  margin-top: 71px;
+  display: grid;
+  justify-items: self-start;
+  grid-template-areas: "a a a";
 }
 
 .logo {
-    width: 106px;
-    height: 54px;
+  width: 106px;
+  height: 54px;
 }
 .navigation-list {
-    display: grid;
-    grid-template-columns: 100px 100px 130px 100px 100px;
-    gap: 5px;
+  display: grid;
+  grid-template-columns: 100px 100px 130px 100px 100px;
+  gap: 5px;
 }
 .navigation-list-item {
-    list-style-type: none;
+  list-style-type: none;
 }
 .navigation-lits-link {
-    color: var(--text-dark);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-    white-space: nowrap;
-    cursor: pointer;
+  color: var(--text-dark);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
 }
 .button-header {
-    color: var(--text-black);
-    background-color: #fff;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: var(--text-black);
+  background-color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-    width: 220px;
-    height: 70px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    border: 2px solid var(--text-dark);
-    cursor: pointer;
+  width: 220px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid var(--text-dark);
+  cursor: pointer;
 }
 
 /*Main*/
 
 .container-title {
-    margin-top: 10px;
-    display: grid;
-    grid-template-rows: 0.5fr 0.3fr 0.1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "title light img"
-        "text text img"
-        "button button img";
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: 0.5fr 0.3fr 0.1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "title light img"
+    "text text img"
+    "button button img";
 }
 .title {
-    color: var(--text-black);
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    grid-area: title;
-    white-space: nowrap;
+  color: var(--text-black);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  grid-area: title;
+  white-space: nowrap;
 }
 .light {
-    width: 100px;
-    height: 100px;
-    grid-area: light;
-    margin-top: 140px;
-    margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  grid-area: light;
+  margin-top: 140px;
+  margin-left: 5px;
 }
 .text-title {
-    color: #8F95A5;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    grid-area: text;
+  color: #8f95a5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  grid-area: text;
 }
 .button-title {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
 
-    width: 438px;
-    height: 118px;
-    border-radius: 15px;
-    background: var(--text-dark);
-    grid-area: button;
-    cursor: pointer;
+  width: 438px;
+  height: 118px;
+  border-radius: 15px;
+  background: var(--text-dark);
+  grid-area: button;
+  cursor: pointer;
 }
 .img-title {
-    width: 661px;
-    height: 661px;
-    grid-area: img;
+  width: 661px;
+  height: 661px;
+  grid-area: img;
 }
 
 /*Pages*/
 
 .skills-title {
-    text-align: center;
-    margin-top: 147px;
-    color: var(--text-black);
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    margin-bottom: 92px;
+  text-align: center;
+  margin-top: 147px;
+  color: var(--text-black);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 92px;
 }
 .content-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 630px 360px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 630px 360px;
+  grid-template-areas:
     "long pages1 pages2"
     "long wight wight";
 }
 .pages-long {
-    grid-area: long;
+  grid-area: long;
 }
 .pages-title {
-    color: var(--text-dark);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    grid-area: title;
+  color: var(--text-dark);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  grid-area: title;
 }
 .pages-text {
-    color: #8F95A5;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    grid-area: text;
+  color: #8f95a5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  grid-area: text;
 }
 .pages-button {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border: 0;
-    margin-top: 50px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  margin-top: 50px;
 
-    width: 230px;
-    height: 60px;
-    border-radius: 5px;
-    background: var(--text-dark);
-    grid-area: button;
-    cursor: pointer;
+  width: 230px;
+  height: 60px;
+  border-radius: 5px;
+  background: var(--text-dark);
+  grid-area: button;
+  cursor: pointer;
 }
 .pages-one {
-    grid-area: pages1;
-    position: relative;
-    top: -46px;
+  grid-area: pages1;
+  position: relative;
+  top: -46px;
 }
-.pages-one .pages-img{
-    margin-left: 50px;
-    position: relative;
-    top: 10px;
+.pages-one .pages-img {
+  margin-left: 50px;
+  position: relative;
+  top: 10px;
 }
-.pages-two{
-    grid-area: pages2;
+.pages-two {
+  grid-area: pages2;
 }
 .pages-img {
-    grid-area: img;
+  grid-area: img;
 }
 .pages-widht {
-    grid-area: wight;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 50px 50px;
-    grid-template-areas:
+  grid-area: wight;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 50px 50px;
+  grid-template-areas:
     "title img"
     "text img"
     "button img";
@@ -206,224 +206,221 @@
 /*About us*/
 
 .content-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.8fr 1fr 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr 1fr;
+  grid-template-areas:
     "title . . . image"
     "text text text . image"
     "fact1 fact2 fact3 . image";
 }
 .about-title {
-    color: var(--text-black);
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    grid-area:  title;
-    white-space: nowrap;
+  color: var(--text-black);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  grid-area: title;
+  white-space: nowrap;
 }
 .about-text {
-    color: #8F95A5;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    max-width: 635px;
-    grid-area: text;
-    margin-bottom: 25px;
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 635px;
+  grid-area: text;
+  margin-bottom: 25px;
 }
 .fact1 {
-    grid-area: fact1;
-    
+  grid-area: fact1;
 }
 .fact2 {
-    grid-area: fact2;
-    
+  grid-area: fact2;
 }
 .fact3 {
-    grid-area: fact3;
-    
+  grid-area: fact3;
 }
 .fact-number {
-    color: #2A3246;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    text-align: center;
+  color: #2a3246;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
 }
 .fact-text {
-    color: #8F95A5;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
 }
 .fact-img {
-    width: 500px;
-    height: 500px;
-    grid-area: image;
+  width: 500px;
+  height: 500px;
+  grid-area: image;
 }
 
 /*Pricing*/
 
 .pricing-title {
-    color: var(--text-black);
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    text-align: center;
+  color: var(--text-black);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
 }
-.card{
-    display: grid;
-    grid-template-rows: 1fr 0.2fr 0.35fr 0.5fr;
+.card {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 0.35fr 0.5fr;
 }
 
 .card-subtitle {
-    color: var(--text-dark);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px;
+  color: var(--text-dark);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
 }
 .card-text {
-    color: #8F95A5;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    max-width: 410px;
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 410px;
 }
 .card-button {
-    color: var(--text-dark);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: var(--text-dark);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-    border-radius: 5px;
-    background: #EEE;
-    width: 240px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: 0;
+  border-radius: 5px;
+  background: #eee;
+  width: 240px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
 }
 .card-button-text {
-    color: #546269;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 5px;
+  color: #546269;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
 }
-.card-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*Contact*/
 
 .content-contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+  grid-template-areas:
     "image . title ."
     "image . text text"
     "image . input button";
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .contact-image {
-    width: 477px;
-    height: 429px;
-    grid-area: image;
+  width: 477px;
+  height: 429px;
+  grid-area: image;
 }
 .contact-title {
-    color: var(--text-black);
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px;
-    grid-area: title;
+  color: var(--text-black);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  grid-area: title;
 }
 .contact-text {
-    color: #8F95A5;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    max-width: 776px;
-    grid-area: text;
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 776px;
+  grid-area: text;
 }
 .contact-input {
-    border-radius: 10px;
-    border: 1px solid #8F95A5;
+  border-radius: 10px;
+  border: 1px solid #8f95a5;
 
-    width: 450px;
-    height: 80px;
-    padding-left: 33px;
-    grid-area: input;
+  width: 450px;
+  height: 80px;
+  padding-left: 33px;
+  grid-area: input;
 }
 .contact-button {
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 
-    width: 264px;
-    height: 80px;
-    border-radius: 10px;
-    background: var(--text-dark);
-    border: 0;
-    cursor: pointer;
-    grid-area: button;
-    margin-left: 12px;
+  width: 264px;
+  height: 80px;
+  border-radius: 10px;
+  background: var(--text-dark);
+  border: 0;
+  cursor: pointer;
+  grid-area: button;
+  margin-left: 12px;
 }
 
 /*Footer*/
 
 .footer {
-    max-width: 1342px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1342px;
+  width: 100%;
+  margin: 0 auto;
 }
 .footer-line {
-    color: #C4C4C4;
-    border: 1px solid;
+  color: #c4c4c4;
+  border: 1px solid;
 }
 .container-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 35px;
-    margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .navigation-list__footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
 }
 .navigation-list-item__footer {
-    color: #8F95A5;
+  color: #8f95a5;
 }
 .navigation-list-item__footer:first-child {
-    list-style-type: none;
+  list-style-type: none;
 }
 .navigation-lits-link__footer {
-    color: #8F95A5;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    white-space: nowrap;
-    position: relative;
-    top: 2px;
+  color: #8f95a5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+  top: 2px;
 }

@@ -1,123 +1,125 @@
 .container {
-    max-width: 290px;
-    width: 100%;
-    margin: 0;
+  max-width: 290px;
+  width: 100%;
+  margin: _;
 }
-.logo{
-    width: 71px;
-    height: 36px;
+.logo {
+  width: 71px;
+  height: 36px;
 }
 
 /*main*/
 
-.container-title {
-    grid-template-rows: 0.5fr 0.3fr 0.4fr 0.3fr;
+main {
+  display: flex;
+  justify-content: center;
 }
-.title {   
-    text-align: center;
-    font-size: 24px;
-    line-height: 36px;
-    white-space: break-spaces;
+.container-title {
+  grid-template-rows: 0.5fr 0.3fr 0.4fr 0.3fr;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  white-space: break-spaces;
 }
 .text-title {
-    text-align: center;
-    font-size: 13px;
-    line-height: normal;
-    white-space:  normal;
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 13px;
+  line-height: normal;
+  white-space: normal;
+  margin-bottom: 15px;
 }
 .img-title {
-    width: 299px;
-    height: 299px;
+  width: 299px;
+  height: 299px;
 }
-.button-title { 
-    width: 289px;
-    height: 60px;
+.button-title {
+  width: 289px;
+  height: 60px;
 
-    font-size: 16px;
-    line-height: normal;
-    margin: 0;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
 }
-
 
 /*skills*/
 
 .skills-title {
-    font-size: 24px;
-    line-height: 80px;
+  font-size: 24px;
+  line-height: 80px;
 }
 .content-skills {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
     "long"
     "pages1"
     "pages2"
     "wight";
-    gap: 0px;
+  gap: 0px;
 }
-.long-img { 
-    width: 213px;
-    height: 213px;
-    margin: 0 auto;
+.long-img {
+  width: 213px;
+  height: 213px;
+  margin: 0 auto;
 }
-.pages-title {  
-    font-size: 18px;
-    line-height: 80px;
-    margin: 0 auto;
+.pages-title {
+  font-size: 18px;
+  line-height: 80px;
+  margin: 0 auto;
 }
 .pages-text {
-    font-size: 13px;
-    line-height: normal;
-    margin-bottom: 20px;
+  font-size: 13px;
+  line-height: normal;
+  margin-bottom: 20px;
 }
 .pages-button {
-    width: 178px;
-    height: 50px;
+  width: 178px;
+  height: 50px;
 
-    font-size: 14px;
-    line-height: normal;
-    text-align: center;
-
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
 }
-.pages-one .pages-img{
-    width: 204px;
-    height: 204px;
-    margin: 0 auto;
+.pages-one .pages-img {
+  width: 204px;
+  height: 204px;
+  margin: 0 auto;
 }
-.pages-one .pages-button{
-    margin-top: 197px;
-    margin: 0 auto;
+.pages-one .pages-button {
+  margin-top: 197px;
+  margin: 0 auto;
 }
-.pages-two .pages-img{
-    width: 236px;
-    height: 157px;
-    margin: 0 auto;
+.pages-two .pages-img {
+  width: 236px;
+  height: 157px;
+  margin: 0 auto;
 }
-.pages-widht .pages-img{
-    width: 232px;
-    height: 154px;
-    margin: 0 auto;
+.pages-widht .pages-img {
+  width: 232px;
+  height: 154px;
+  margin: 0 auto;
 }
-.pages-one{
-    margin: 0 auto;
+.pages-one {
+  margin: 0 auto;
 }
-.pages-two{
-    margin: 0 auto;
+.pages-two {
+  margin: 0 auto;
 }
-.pages-long{
-    margin: 0 auto;
+.pages-long {
+  margin: 0 auto;
 }
-.pages-widht{
-    margin: 0 auto;
+.pages-widht {
+  margin: 0 auto;
 }
 /*about*/
 .content-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
     "title"
     "image"
     "text"
@@ -126,144 +128,143 @@
     "fact3";
 }
 .about-title {
-    font-size: 24px;
-    line-height: 80px;
-    margin: 0px;
-    margin-bottom: -85px;
+  font-size: 24px;
+  line-height: 80px;
+  margin: 0px;
+  margin-bottom: -85px;
 }
-.about-text {   
-    text-align: center;
-    font-size: 13px;
-    line-height: normal;
+.about-text {
+  text-align: center;
+  font-size: 13px;
+  line-height: normal;
 }
 .fact-number {
-    font-size: 24px;
-    line-height: 80px;
+  font-size: 24px;
+  line-height: 80px;
 }
 .fact-text {
-    font-size: 15px;
-    line-height: normal;
+  font-size: 15px;
+  line-height: normal;
 }
 .fact1 {
-    left: 0;
+  left: 0;
 }
 .fact3 {
-    right: 0;
+  right: 0;
 }
-.fact-img { 
-    width: 283px;
-    height: 283px;
+.fact-img {
+  width: 283px;
+  height: 283px;
 }
 
 /*pricing*/
 
 .pricing-title {
-    font-size: 24px;
-    line-height: 80px;
-    margin-top: 60px;
+  font-size: 24px;
+  line-height: 80px;
+  margin-top: 60px;
 }
 .reaction1 {
-    width: 248px;
-    height: 248px;
+  width: 248px;
+  height: 248px;
 }
-.card-subtitle {   
-    font-size: 18px;
-    line-height: 28px;
+.card-subtitle {
+  font-size: 18px;
+  line-height: 28px;
 }
 .card-text {
-    text-align: center;
-    font-size: 13px;
-    line-height: normal;
+  text-align: center;
+  font-size: 13px;
+  line-height: normal;
 }
-.card-button {  
-    width: 170px;
-    height: 37px;
+.card-button {
+  width: 170px;
+  height: 37px;
 
-    font-size: 18px;
-    line-height: normal;
+  font-size: 18px;
+  line-height: normal;
 }
-.card-button-text { 
-    font-size: 14px;
-    line-height: normal;
+.card-button-text {
+  font-size: 14px;
+  line-height: normal;
 }
-.reaction2 {  
-    width: 257px;
-    height: 197px;
+.reaction2 {
+  width: 257px;
+  height: 197px;
 }
 .reaction3 {
-    width: 241px;
-    height: 241px;
+  width: 241px;
+  height: 241px;
 }
 
 /*contact*/
 
 .content-contact {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
     "title"
     "image"
     "text"
     "input"
     "button";
-    margin-top: 50px;
+  margin-top: 50px;
 }
-.contact-image {    
-    width: 253px;
-    height: 228px;
+.contact-image {
+  width: 253px;
+  height: 228px;
 }
 .contact-title {
-    font-size: 24px;
-    line-height: 80px;    
+  font-size: 24px;
+  line-height: 80px;
 }
 .contact-text {
-    text-align: center;
-    font-size: 14px;
-    line-height: normal;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .contact-input {
-    width: 253px;
-    height: 50px;
-    margin-bottom: 15px;
+  width: 253px;
+  height: 50px;
+  margin-bottom: 15px;
 }
 .contact-button {
-    width: 290px;
-    height: 60px;
+  width: 290px;
+  height: 60px;
 
-    font-size: 14px;
-    line-height: normal;
-    left: 0;
-    margin-left: 0;
-    margin-bottom: 50px;
+  font-size: 14px;
+  line-height: normal;
+  left: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
 }
-
 
 /*footer*/
 
 .footer {
-    max-width: 290px;
-    width: 100%;
-    margin: 0;
+  max-width: 290px;
+  width: 100%;
+  margin: _;
 }
 .navigation-lits-link__footer {
-    font-size: 11px;
+  font-size: 11px;
 }
 .container-footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 35px;
-    margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
-.container-footer .logo{
-    margin: 0 auto;
+.container-footer .logo {
+  margin: 0 auto;
 }
 .navigation-list__footer {
-    gap: 2px;
-    padding: 0;
+  gap: 2px;
+  padding: 0;
 }
-.navigation-list-item__footer{
-    list-style-type: none;
+.navigation-list-item__footer {
+  list-style-type: none;
 }
